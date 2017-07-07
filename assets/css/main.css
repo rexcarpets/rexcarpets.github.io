@@ -1,0 +1,177 @@
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600,700,900);
+/* OVERALL ASPECT */
+body {
+  background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 700;
+    color: #333;
+}
+h4 {
+	color:white;
+}
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.centered {
+    text-align: center;
+}
+.mt {
+	margin-top: 25px;
+}
+.mb {
+	margin-bottom : 40px;
+}
+.center-me {
+	display: block;
+	margin: auto;
+}
+/* Links */
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+/* Bootstrap Modifications */
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+/* NavBar */
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #ad1313;
+}
+.navbar-brand {
+	font-size: 60px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.btn-theme {
+	color: #ffffff;
+	background-color: #ad1313;
+	border-color: transparent;
+}
+.btn {
+	padding: 10px 30px;
+	margin-bottom: 0;
+	font-size: 18px;
+	border: 5px solid transparent;
+	border-radius: 0px;
+}
+.lead {
+	letter-spacing: 1px;
+}
+
+#f {
+	padding-top: 20px;
+	background-color: #ad1313;
+}
+#f p {
+	color: white;
+	text-align: right;
+	font-weight: 400;
+}/* HomePage */
+
+#Accordion {
+	width: 100%;
+	padding-top: 250px;
+	padding-bottom: 150px;
+}
+#Accordion h2 {
+	font-size: 45px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #ad1313;
+}
+#Accordion h4 {
+	color: #ffffff;
+	font-weight: 700;
+}
+
+#AboutUs {
+	background-color: #ad1313;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+#AboutUs h3 {
+	color: white;
+	font-weight: 600;
+	margin-bottom: 35px;
+}
+#AboutUs p {
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+}
+/* Footer */
+
+#CarpetTitle {
+	width:100%;
+	padding-top: 100px;
+}
+#CarpetDescription {
+	background-color: #ad1313;
+	color: #ffffff;
+}
+#CarpetDescription h3 {
+	color: #ffffff;
+}
+
+#LetterSpaced 		{
+	letter-spacing: 0.1px;
+}
+.fa-paw {
+	color: #ad1313;
+	margin-right: 5px;
+}
+/* Image Opacity */
+.grid img {
+    opacity: .7;
+}
+.grid img:hover {
+    opacity: 1;
+}
